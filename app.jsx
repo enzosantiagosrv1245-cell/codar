@@ -321,9 +321,8 @@ caminho rota = IA.encontrarCaminho(
   obstaculos
 );
 
-// =============================================
-// 🎬 CINEMÁTICAS
-// =============================================
+🎬 CINEMÁTICAS
+
 cinematica intro = criarcinematica();
 intro.adicionarCena({
   duracao: 3000,
@@ -351,8 +350,12 @@ definirfps(60);
 numero fps = obterFPS();
 numero memória = obterMemoria();
 otimizar(); // auto-otimização
+`)};
 
-// =============================================
-// EXEMPLO: JOGO COMPLETO
-// =============================================
-mostrenatela("🎮 Jogo iniciado!");
+  return (
+    <div className="codeplay-studio">
+      {/* Interface do CodePlay Studio */}
+      {/* Implementação completa da interface com base nos estados definidos */}
+    </div>
+  ); 
+  
